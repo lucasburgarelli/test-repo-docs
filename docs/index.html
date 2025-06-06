@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>Minha Documentação</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <title>Minha Documentação - Meu Projeto</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <header>
+        <img src="images/logo.png" alt="Logo" class="logo" />
         <h1>Minha Documentação</h1>
-        <nav>
-            <a href="index.html">Início</a>
-            <a href="docs/tutorial.html">Tutorial</a>
-        </nav>
     </header>
-    <main>
-        <p>Esta é a página inicial da documentação do meu projeto.</p>
+
+    <nav class="sidebar">
+        <ul>
+            <li><a href="#" data-doc="intro.mydoc">Introdução</a></li>
+            <li><a href="#" data-doc="api.mydoc">API</a></li>
+            <li><a href="#" data-doc="tutorials.mydoc">Tutoriais</a></li>
+        </ul>
+    </nav>
+
+    <main id="content">
+        <p>Selecione um tópico no menu à esquerda.</p>
     </main>
+
     <footer>
-        <p>© 2025 Minha Organização</p>
+        © 2025 Minha Organização
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
