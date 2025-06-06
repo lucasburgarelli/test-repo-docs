@@ -31,6 +31,7 @@ function parseMyDoc(text) {
         .replace(/^- (.*$)/gim, '<li>$1</li>')
         .replace(/\n<li>/g, '<ul><li>').replace(/<\/li>\n(?!<li>)/g, '</li></ul>')
         .replace(/\n/g, '<br>');
+        .replace(/```([\s\S]*?)```/gim, '<pre><code>$1</code></pre>')
 
     return html;
 }
