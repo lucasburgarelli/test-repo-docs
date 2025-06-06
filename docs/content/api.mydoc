@@ -1,0 +1,7 @@
+# API - Visão Geral
+Aqui está a visão geral da API.
+
+## Métodos
+- init()
+- update()
+- shutdown()
