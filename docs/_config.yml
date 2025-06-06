@@ -1,0 +1,9 @@
+title: Minha Documentação
+description: Documentação de exemplo com Just the Docs
+theme: just-the-docs
+
+just_the_docs:
+  logo: "/assets/images/logo.png"
+  aux_links:
+    "Meu Repositório no GitHub":
+      - "https://github.com/SEU_REPO"
