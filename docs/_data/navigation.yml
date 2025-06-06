@@ -1,0 +1,10 @@
+- title: Documentação
+  url: /
+  children:
+    - title: Página 1
+      url: /docs/page1
+    - title: Subcategoria
+      url: /docs/subcategory/page2
+      children:
+        - title: Página 3
+          url: /docs/subcategory/deeper/page3
